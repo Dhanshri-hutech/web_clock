@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+   
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.div card{
+    max-width: 91vw;
+    margin: auto;
+    padding-inline-end: 5%;
+    overflow: hidden;
+    display: inline-block;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+}
+.div table{
+    align-items: center;
+}
+.button Button{
+    align-items: flex-end;
+}
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::after {
+    display: inline-block;
+    margin-right: 4px;
+    color: #FF4D4F;
+    font-size: 14px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: '*';
+    
+}
+.ant-form-item-control-input{
+  width: 100%;
+}
+.ant-form-item-control-input::before{
+  display: flex;
+    margin-right: 4px;
+    color:black;
+    content: ':';
+}
+.ant-table-pagination-right {
+  justify-content: center;
+}
+.ant-modal-title {
+  background: #001529;
+  color:white;
+}
+.ant-modal-header{
+  background: #001529;
+  color:white;
+}
+.ant-modal-close{
+ 
+  color:white;
+}
+.btn {
+  border-radius: 2px;
+  border: 0;
+  transition: .2s ease-out;
+  color: #fff !important;
+  margin: 6px;
+  white-space: normal !important;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 10px 9px;
+  font-weight: 600;
+  display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    
+}
+
